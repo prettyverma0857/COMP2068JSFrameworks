@@ -1,1 +1,72 @@
-<% include partial/header %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attires</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00;
+}
+
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Attires</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="skirt">skirt</a></li>
+        <li><a href="denims">denims</a></li>
+        <li><a href="top">top</a></li>
+        <li><a href="trousers">trousers</a></li>
+
+      </ul>
+    </div>
+  </nav>
+</body>
+</html>

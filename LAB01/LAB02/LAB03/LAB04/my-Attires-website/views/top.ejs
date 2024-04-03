@@ -1,1 +1,118 @@
-<% include partial/header %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tops Collection</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <% include partial/header %>
+<style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00;
+}
+
+.content {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tops-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.top-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.top-item h2 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.top-item p {
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+</style>
+  
+
+  <div class="content">
+    <h1>Tops Collection</h1>
+    <div class="tops-gallery">
+      <div class="top-item">
+        <h2>Striped T-shirt</h2>
+        <p>A comfortable striped t-shirt made from soft cotton fabric.</p>
+        <p>Available sizes: XS, S, M, L</p>
+        <p>Price: $19.99</p>
+      </div>
+      <div class="top-item">
+        <h2>Off-Shoulder Blouse</h2>
+        <p>An elegant off-shoulder blouse with ruffle detailing.</p>
+        <p>Available sizes: S, M, L</p>
+        <p>Price: $29.99</p>
+      </div>
+      <!-- Add more top items as needed -->
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Attires. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
